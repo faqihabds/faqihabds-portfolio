@@ -295,52 +295,7 @@ export const projects = [
     vgithub: "https://github.com/faqihabds/Object-Tracking-for-Cars-Using-a-Pre-trained-YOLO-Model",
   },
   {
-    id: 3,
-    title: "RIZUMU",
-    date: "Sep 2023 - Jan 2024",
-    description:
-      "Rizumu is built using  Laravel as the main framework, along with HTML, CSS, and JavaScript for developing a responsive and engaging user interface. The application logic is powered by PHP, while MySQL serves as the primary database for storing and managing information related to music, users, and more.",
-    image:
-      "https://raw.githubusercontent.com/faqihabds/RIZUMU/main/images/landingpage.png",
-    tags: ["Laravel", "HTML", "CSS", "JavaScript", "MySQL", "PHP"],
-    category: "web",
-    detail: "",
-    vgithub: "https://github.com/faqihabds/RIZUMU",
-    member: [
-        {
-          name: "Muhammad Faqih Abdussalam",
-          img: "https://avatars.githubusercontent.com/u/152376791?v=4",
-          linkedin: "https://www.linkedin.com/in/faqihabds/",
-          github: "https://github.com/faqihabds",
-        },
-        {
-          name: "Muhammad Antares Qhadafi",
-          img: "https://media.licdn.com/dms/image/v2/D5603AQHhp6LKr9edJA/profile-displayphoto-shrink_200_200/B56ZZg5x.PHgAc-/0/1745382482564?e=1756944000&v=beta&t=531uGq-wyWv_2fgKynNGPp5U2Ot-VFaBTDbWwsJ2SOM",
-          linkedin: "https://www.linkedin.com/in/antarezq/",
-          github: "",
-        },
-        {
-          name: "Muhammad Darrel Prawira",
-          img: "https://media.licdn.com/dms/image/v2/D5603AQG4PBVsqcqolw/profile-displayphoto-shrink_200_200/B56ZSyRHiOHsAY-/0/1738157619764?e=1756944000&v=beta&t=AGlJgJvYpA0luKIIbPlRTUVNL-_xED4PoShA1ivdfQ0",
-          linkedin: "https://www.linkedin.com/in/dapraws/",
-          github: "https://github.com/dapraws",
-        },
-        {
-          name: "Muhammad Raihan Syahrin",
-          img: "https://media.licdn.com/dms/image/v2/D5603AQEKPB2lhP97gQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1689610675485?e=1756944000&v=beta&t=SenWlTTDt5a4Q7vid809aInScYeHKgcin99VwKlaJoA",
-          linkedin: "https://www.linkedin.com/in/raihansyahrin/",
-          github: "https://github.com/raihansyahrin",
-        },
-        {
-          name: "Lugi Febriansyah",
-          img: "https://media.licdn.com/dms/image/v2/D5603AQHGPTNF6bqmaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673021998938?e=1756944000&v=beta&t=Kq4h6x4mZTTK6Vu7d6WA_1la-XoMhsn3fE7KSSg6qpE",
-          linkedin: "https://www.linkedin.com/in/lugi-febriansyah-124b69238/",
-          github: "",
-        },
-    ]
-  },
-  {
-    id: 4,
+    id: 2,
     title: "FER to identify Happy and Sad emotions",
     date: "sep 2024 - Jan 2025",
     description:
@@ -371,6 +326,46 @@ export const projects = [
           github: "",
         },
     ],
+  },
+  {
+    id: 3,
+    title: "Explorasi AutoML - Vehicle",
+    date: "Sep 2024 - Jan 2025",
+    description:
+      "Menerapkan AutoML untuk menyelesaikan sebuah task pada dataset kendaraan.",
+    image:
+      "https://raw.githubusercontent.com/faqihabds/Explorasi-AutoML-Vehicle/refs/heads/main/Screenshot%202025-07-03%20012943.png",
+    tags: ["TPOT", "Niapy","Python", " Automated Machine Learning"],
+    category: "ml / ai",
+    detail: "https://github.com/faqihabds/Explorasi-AutoML-Vehicle/blob/main/Tugas%20Besar%20Kelompok%20-%20Vehicle.pdf",
+    vgithub: "https://github.com/faqihabds/Explorasi-AutoML-Vehicle",
+    member: [
+        {
+          name: "Muhammad Faqih Abdussalam",
+          img: "https://avatars.githubusercontent.com/u/152376791?v=4",
+          linkedin: "https://www.linkedin.com/in/faqihabds/",
+          github: "https://github.com/faqihabds",
+        },
+        {
+          name: "Maritza Amalia Dwiputri ",
+          img: "https://media.licdn.com/dms/image/v2/D4E35AQGlMDUiqI3mLg/profile-framedphoto-shrink_200_200/B4EZcAKEA6HkAc-/0/1748054327613?e=1752087600&v=beta&t=T0FZgtISbJdtn5DV1DaywdALynpV5E1l1ecVe5hF_vY",
+          linkedin: "https://www.linkedin.com/in/maritza-amalia-dwiputri/",
+          github: "",
+        },
+    ]
+  },
+  {
+    id: 4,
+    title: "Promo Click Prediction using Logistic Regression",
+    date: "Mei 2024",
+    description:
+      "Machine Learning Project E-Commerce Case Study: Promo Click Prediction using Logistic Regression.",
+    image:
+      "https://raw.githubusercontent.com/faqihabds/Promo-Click-Prediction-using-Logistic-Regression/refs/heads/main/Screenshot%202025-07-03%20012123.png",
+    tags: ["Python", "Sklearn", "Pandas", "Machine Learning", "Logistic Regession", "EDA", "Classification", "Supervised Learning"],
+    category: "ml / ai", 
+    detail: "https://github.com/faqihabds/Promo-Click-Prediction-using-Logistic-Regression",
+    vgithub: "https://github.com/faqihabds/Promo-Click-Prediction-using-Logistic-Regression",
   },
   {
     id: 5,
@@ -415,6 +410,51 @@ export const projects = [
           img: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
           linkedin: "https://www.linkedin.com/in/dzamir-akmal/",
           github: "https://github.com/Eyotaaa",
+        },
+    ]
+  },
+  {
+    id: 7,
+    title: "RIZUMU",
+    date: "Sep 2023 - Jan 2024",
+    description:
+      "Rizumu is built using  Laravel as the main framework, along with HTML, CSS, and JavaScript for developing a responsive and engaging user interface. The application logic is powered by PHP, while MySQL serves as the primary database for storing and managing information related to music, users, and more.",
+    image:
+      "https://raw.githubusercontent.com/faqihabds/RIZUMU/main/images/landingpage.png",
+    tags: ["Laravel", "HTML", "CSS", "JavaScript", "MySQL", "PHP"],
+    category: "web",
+    detail: "",
+    vgithub: "https://github.com/faqihabds/RIZUMU",
+    member: [
+        {
+          name: "Muhammad Faqih Abdussalam",
+          img: "https://avatars.githubusercontent.com/u/152376791?v=4",
+          linkedin: "https://www.linkedin.com/in/faqihabds/",
+          github: "https://github.com/faqihabds",
+        },
+        {
+          name: "Muhammad Antares Qhadafi",
+          img: "https://media.licdn.com/dms/image/v2/D5603AQHhp6LKr9edJA/profile-displayphoto-shrink_200_200/B56ZZg5x.PHgAc-/0/1745382482564?e=1756944000&v=beta&t=531uGq-wyWv_2fgKynNGPp5U2Ot-VFaBTDbWwsJ2SOM",
+          linkedin: "https://www.linkedin.com/in/antarezq/",
+          github: "",
+        },
+        {
+          name: "Muhammad Darrel Prawira",
+          img: "https://media.licdn.com/dms/image/v2/D5603AQG4PBVsqcqolw/profile-displayphoto-shrink_200_200/B56ZSyRHiOHsAY-/0/1738157619764?e=1756944000&v=beta&t=AGlJgJvYpA0luKIIbPlRTUVNL-_xED4PoShA1ivdfQ0",
+          linkedin: "https://www.linkedin.com/in/dapraws/",
+          github: "https://github.com/dapraws",
+        },
+        {
+          name: "Muhammad Raihan Syahrin",
+          img: "https://media.licdn.com/dms/image/v2/D5603AQEKPB2lhP97gQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1689610675485?e=1756944000&v=beta&t=SenWlTTDt5a4Q7vid809aInScYeHKgcin99VwKlaJoA",
+          linkedin: "https://www.linkedin.com/in/raihansyahrin/",
+          github: "https://github.com/raihansyahrin",
+        },
+        {
+          name: "Lugi Febriansyah",
+          img: "https://media.licdn.com/dms/image/v2/D5603AQHGPTNF6bqmaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673021998938?e=1756944000&v=beta&t=Kq4h6x4mZTTK6Vu7d6WA_1la-XoMhsn3fE7KSSg6qpE",
+          linkedin: "https://www.linkedin.com/in/lugi-febriansyah-124b69238/",
+          github: "",
         },
     ]
   },
