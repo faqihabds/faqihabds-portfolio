@@ -466,5 +466,18 @@ export const projects = [
     detail: "https://docs.google.com/spreadsheets/d/1zMjE1lfkNcMhHAr8SFjfsNIFPh3UKAMD/edit?usp=sharing&ouid=112383891813525182168&rtpof=true&sd=true",
     vgithub: "https://github.com/faqihabds/Excel-Spreadsheet-Basic-Function",
   },
+  {
+    id: 9,
+    title: "Excel & Spreadsheet Lookup Functions, Pivot, and Chart Exercises",
+    date: "Jun 2025",
+    description:
+      "This project contains exercises to practice essential lookup functions and charting techniques in Microsoft Excel and other spreadsheet tools.",
+    image:
+      "https://raw.githubusercontent.com/faqihabds/Excel-Spreadsheet-Lookup-Functions-Pivot-and-Chart-Exercises/refs/heads/main/ChatGPT%20Image%2011%20Jul%202025%2C%2019.21.53.png",
+    tags: ["Excel", "Spreadsheet", "HLookup", "VLookup", "Pivot", "Chart"],
+    category: "data",
+    detail: "https://docs.google.com/spreadsheets/d/183jIl3Wf-E9xPD5B6s5ggloDvWUHAUAPmYF4hxVVLJE/edit?usp=sharing",
+    vgithub: "https://github.com/faqihabds/Excel-Spreadsheet-Lookup-Functions-Pivot-and-Chart-Exercises",
+  },
 ];
 
