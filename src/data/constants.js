@@ -158,11 +158,6 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -258,7 +253,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://play-lh.googleusercontent.com/7umsqwK51mKv749Q2NTf52QDRMwiF_aZiUGyf6ADVylp2_BIN7AvZCt5-Crk6ovvAg",
+    img: "data:image/png;base64,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",
     school: "Telkom University",
     date: "Sep 2021 - Feb 2025",
     grade: "3.76 CGPA",
@@ -348,7 +343,7 @@ export const projects = [
         },
         {
           name: "Maritza Amalia Dwiputri ",
-          img: "https://media.licdn.com/dms/image/v2/D4E35AQGlMDUiqI3mLg/profile-framedphoto-shrink_200_200/B4EZcAKEA6HkAc-/0/1748054327613?e=1752087600&v=beta&t=T0FZgtISbJdtn5DV1DaywdALynpV5E1l1ecVe5hF_vY",
+          img: "https://media.licdn.com/dms/image/v2/D4E35AQGlMDUiqI3mLg/profile-framedphoto-shrink_100_100/B4EZcAKEA6HkAo-/0/1748054327768?e=1752840000&v=beta&t=XIAcnSHHgWjLz27b68xQwBGsEaCCeIzhNoiMp-ieG_c",
           linkedin: "https://www.linkedin.com/in/maritza-amalia-dwiputri/",
           github: "",
         },
@@ -401,13 +396,13 @@ export const projects = [
         },
         {
           name: "Farhan Faturahman",
-          img: "https://media.licdn.com/dms/image/v2/D4E35AQHUzsUo00v0FA/profile-framedphoto-shrink_200_200/B4EZWKJjz0GwAY-/0/1741779516937?e=1751824800&v=beta&t=cZujTHUeIYkhom9IzbtnY_b3gnENdmOoWrz-n-yTqYw",
+          img: "https://media.licdn.com/dms/image/v2/D4E35AQHUzsUo00v0FA/profile-framedphoto-shrink_400_400/B4EZWKJjz0GwAc-/0/1741779516906?e=1752840000&v=beta&t=qOVCrcY-tfY8Nt1JTAokLl_qDd8hG_gqCm-otzDyP24",
           linkedin: "https://www.linkedin.com/in/farhanfaturahman/",
           github: "https://github.com/Faeyns",
         },
         {
           name: "Dzamir Akmal",
-          img: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+          img: "https://media.licdn.com/dms/image/v2/D5635AQEd939YfgX0QQ/profile-framedphoto-shrink_400_400/B56ZfVVt7nG0Ac-/0/1751630929971?e=1752840000&v=beta&t=Cy4fpiDispmvdswCQCM6D410hwBus5ok2U5yOyq9mr4",
           linkedin: "https://www.linkedin.com/in/dzamir-akmal/",
           github: "https://github.com/Eyotaaa",
         },
@@ -457,6 +452,19 @@ export const projects = [
           github: "",
         },
     ]
+  },
+  {
+    id: 8,
+    title: "Excel and Spreadsheet Basic Function Exercise",
+    date: "Jun 2025",
+    description:
+      "This project contains exercises to practice basic functions in Microsoft Excel and other spreadsheet tools. It aims to help users understand and master essential functions commonly used for data analysis, reporting, and daily tasks.",
+    image:
+      "https://raw.githubusercontent.com/faqihabds/Excel-Spreadsheet-Basic-Function/refs/heads/main/ChatGPT%20Image%2011%20Jul%202025%2C%2018.57.14.png",
+    tags: ["Excel", "Spreadsheet", "Basic Functions"],
+    category: "data",
+    detail: "https://docs.google.com/spreadsheets/d/1zMjE1lfkNcMhHAr8SFjfsNIFPh3UKAMD/edit?usp=sharing&ouid=112383891813525182168&rtpof=true&sd=true",
+    vgithub: "https://github.com/faqihabds/Excel-Spreadsheet-Basic-Function",
   },
 ];
 
