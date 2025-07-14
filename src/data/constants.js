@@ -479,5 +479,18 @@ export const projects = [
     detail: "https://docs.google.com/spreadsheets/d/183jIl3Wf-E9xPD5B6s5ggloDvWUHAUAPmYF4hxVVLJE/edit?usp=sharing",
     vgithub: "https://github.com/faqihabds/Excel-Spreadsheet-Lookup-Functions-Pivot-and-Chart-Exercises",
   },
+  {
+    id: 10,
+    title: "Personal Portfolio Website",
+    date: "Jun 2025",
+    description:
+      "Welcome to my portfolio! This project showcases my skills, projects, and experiences.",
+    image:
+      "https://raw.githubusercontent.com/faqihabds/image/refs/heads/main/Screenshot%202025-07-14%20195642.png",
+    tags: ["React", "HTML", "CSS", "JavaScript", "GitHub Pages"],
+    category: "web",
+    detail: "https://faqihabds.github.io/faqihabds-portfolio/",
+    vgithub: "https://github.com/faqihabds/faqihabds-portfolio",
+  },
 ];
 
