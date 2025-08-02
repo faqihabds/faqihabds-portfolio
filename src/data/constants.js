@@ -178,7 +178,7 @@ export const experiences = [
     role: "Data Analyst Intern",
     company: "PT Telkom Indonesia (Persero) Tbk (Telkom)",
     date: "Sep 2024 - Des 2024",
-    desc: "Identified additional metrics to enhance website platform performance. SQL to extract and manipulate data for actionable insights. Created visualizations that simplified data interpretation for stakeholders. Gained hands-on experience with advanced analytics tools and techniques.",
+    desc: "Identified and proposed over 50 additional metrics to enhance the performance tracking of the MyCarrier web platform. Utilized SQL in BigQuery and PostgreSQL (via DBeaver and Metabase) to extract, join, and transform 100,000+ rows of data for actionable business insights. Built interactive performance dashboards in Metabase, visualizing data from joined lead and order tables to monitor key metrics.",
     skills: [
       "postgresql",
       "Metabase",
@@ -191,10 +191,10 @@ export const experiences = [
   {
     id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStofN5Dnm-SZRwzRzVhP5jHtiVmSNzylDEpAOWj6DSGx8zwuWCDGfeUhUwonKTk2kvnMs&usqp=CAU",
-    role: "Member",
+    role: "Machine Learning Study Member",
     company: "Google Developer Student Club Telkom University",
     date: "Dec 2023 - Aug 2024",
-    desc: "Participated in an intensive mini bootcamp focused on machine learning. Completed a hands-on project for person detection using YOLOv5, applying theoretical knowledge to practical scenarios. Enhanced understanding of machine learning models and real-world applications. Gained valuable skills in project implementation, problem-solving, and the use of advanced Google developer technologies.",
+    desc: "Participated in a Machine Learning Mini Bootcamp organized by GDSC Telkom University, focusing on hands-on implementation of ML models and real-world case studies. Gained hands-on experience in developing a person detection system using YOLOv5 and Roboflow, focusing on real-time object detection and computer vision implementation.",
     skills: [
       "Python",
       "Machine Learning",
@@ -211,7 +211,7 @@ export const experiences = [
     role: "Secretary and Expert Staff of Business and Entrepreneurship Division",
     company: "Himpunan Mahasiswa S1 Informatika (HIMA IF)",
     date: "May 2023 - Feb 2024",
-    desc: "Maintain accurate records and documentation of division activities, meetings, and decisions. Assist in organizing and coordinating division events, workshops, and seminars. Communicate effectively with division members, providing updates and ensuring information flow. Support the division head in planning and implementing strategies to promote business and entrepreneurship among students. Responsible for generating lawful revenue for the Informatics Student Association (HIMA IF). Tasks include exploring avenues for funding and implementing strategies for sustainable financial growth. Responsible for creating content and podcast TIPIS (Tips Berbisnis).",
+    desc: "Maintain accurate records and documentation of division activities, meetings, and decisions. Created and published 15 episodes of TIPIS (Tips Berbisnis) content on HIMA IF's Instagram account, consisting of 12 visual posts and 3 podcast episodes. Achieved over 500 views and 30+ likes per content, increasing engagement and visibility of the organization’s entrepreneurship division.",
     skills: [
       "Administrative Documentation",
       "Event Coordination & Managementp",
@@ -228,7 +228,7 @@ export const experiences = [
     role: "Liaison Officer PKKMB 2023",
     company: "Direktorat Kemahasiswaan Telkom University",
     date: "Jul 2023 - Sep 2023",
-    desc: "Act as a liaison between the committee and incoming students, facilitating smooth communication and addressing queries effectively. Execute attendance tracking duties with precision, ensuring accurate records for various events and activities. Provide dedicated support by accompanying new students during the PKKMB (Pengenalan Kehidupan Kampus Mahasiswa Baru) orientation program, offering guidance and assistance as needed.",
+    desc: "Managed and guided 25 new students throughout the PKKMB orientation program. Achieved a 94% full participation rate across all scheduled PKKMB activities. Executed precise attendance tracking while providing consistent support and clear guidance to new students throughout the orientation sessions.",
     skills: [
       "Interpersonal & Communication Skills",
       "Team Collaboration",
@@ -248,7 +248,7 @@ export const education = [
     school: "Digital Skola",
     date: "Apr 2025 - Jun 2025",
     grade: "93.2% (Excellent)",
-    desc: "Completed 3 integrated capstone projects: Excel Reporting Project, SQL + Excel Dashboarding Project, Python + SQL Advanced Visualization Dashboard. Developed technical skills in: Python (Pandas, Dataframe, Functions), SQL (PostgreSQL), Excel for analysis & reporting, Data Visualization using Tableau & Google Data Studio. Ranked 2nd among all participants (Top 3 Techies). Earned Excellent ratings in both Technical (95.4) and Soft Skills (98.9)",
+    desc: "Gained hands-on experience with Excel functions, including basic formulas, lookup functions, pivot tables, charting, regression, and forecasting. Processed and analyzed data in Excel to generate structured analytical reports. Extracted and joined tables using SQL, followed by dashboard creation in Excel to visualize key insights. Performed data wrangling, exploratory data analysis (EDA), and data visualization using Python with Pandas, Seaborn, and Matplotlib libraries. Ranked 2nd among all participants (Top 3 Techies). Earned Excellent ratings in both Technical (95.4) and Soft Skills (98.9)",
     degree: "Fast Track Data Analytics Scholarship",
   },
   {
@@ -265,16 +265,16 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Data Wrangling",
-    date: "Jun 2025",
+    title: "Weather and Sales Performance",
+    date: "Aug 2025",
     description:
-      "Performed comprehensive data cleaning and preprocessing to prepare raw datasets for analysis. Tasks included importing and exploring datasets using Pandas, handling missing values through mean and median imputation, and applying normalization techniques to ensure fair feature scaling across variables. The project demonstrated proficiency in preparing high-quality, analysis-ready data essential for downstream machine learning tasks.",
+      "This project explores the correlation between weather conditions and daily sales in Jakarta throughout 2024. The dataset was cleaned, transformed, and visualized using Looker Studio to identify trends and build interactive dashboards. The project showcases skills in API integration, data wrangling, and dashboard development for business insights.",
     image:
-      "https://github.com/faqihabds/image/blob/main/Screenshot%202025-06-29%20230515.png?raw=true",
-    tags: ["Python", "Pandas", "Scikit-Learn", "Data Wrangling", "Import Data", "Explore Data", "Handling Missing Value", "Normalization"],
+      "https://raw.githubusercontent.com/faqihabds/Sales-and-Weather-performance-/refs/heads/main/Screenshot%202025-08-02%20212044.png",
+    tags: ["ETL", "LOOKER STUDIO", "Python", "API", "OpenWeather", "Google Colab"],
     category: "data",
-    detail: "https://www.linkedin.com/posts/faqihabds_data-wrangling-with-python-activity-7343861785034223617-AsxP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC_5b8UBLiZOpoByXjlviAkl2NhAShqgyiU",
-    vgithub: "https://github.com/faqihabds/Data-Wrangling",
+    detail: "https://docs.google.com/presentation/d/1YKyAYNGj9P7Bw-zFW2jKIJ8It3OZPccfw6nSC1LjGeo/edit?usp=sharing",
+    vgithub: "https://github.com/faqihabds/Sales-and-Weather-performance-",
   },
   {
     id: 1,
@@ -334,20 +334,6 @@ export const projects = [
     category: "ml / ai",
     detail: "https://github.com/faqihabds/Explorasi-AutoML-Vehicle/blob/main/Tugas%20Besar%20Kelompok%20-%20Vehicle.pdf",
     vgithub: "https://github.com/faqihabds/Explorasi-AutoML-Vehicle",
-    member: [
-        {
-          name: "Muhammad Faqih Abdussalam",
-          img: "https://avatars.githubusercontent.com/u/152376791?v=4",
-          linkedin: "https://www.linkedin.com/in/faqihabds/",
-          github: "https://github.com/faqihabds",
-        },
-        {
-          name: "Maritza Amalia Dwiputri ",
-          img: "https://media.licdn.com/dms/image/v2/D4E35AQGlMDUiqI3mLg/profile-framedphoto-shrink_100_100/B4EZcAKEA6HkAo-/0/1748054327768?e=1752840000&v=beta&t=XIAcnSHHgWjLz27b68xQwBGsEaCCeIzhNoiMp-ieG_c",
-          linkedin: "https://www.linkedin.com/in/maritza-amalia-dwiputri/",
-          github: "",
-        },
-    ]
   },
   {
     id: 4,
@@ -396,13 +382,13 @@ export const projects = [
         },
         {
           name: "Farhan Faturahman",
-          img: "https://media.licdn.com/dms/image/v2/D4E35AQHUzsUo00v0FA/profile-framedphoto-shrink_400_400/B4EZWKJjz0GwAc-/0/1741779516906?e=1752840000&v=beta&t=qOVCrcY-tfY8Nt1JTAokLl_qDd8hG_gqCm-otzDyP24",
+          img: "https://media.licdn.com/dms/image/v2/D4E35AQHUzsUo00v0FA/profile-framedphoto-shrink_400_400/B4EZWKJjz0GwAc-/0/1741779516906?e=1754751600&v=beta&t=ALN1_U04tfmvl6NkjNNGFHh4PwuhmdVzd-JXliNqBr8",
           linkedin: "https://www.linkedin.com/in/farhanfaturahman/",
           github: "https://github.com/Faeyns",
         },
         {
           name: "Dzamir Akmal",
-          img: "https://media.licdn.com/dms/image/v2/D5635AQEd939YfgX0QQ/profile-framedphoto-shrink_400_400/B56ZfVVt7nG0Ac-/0/1751630929971?e=1752840000&v=beta&t=Cy4fpiDispmvdswCQCM6D410hwBus5ok2U5yOyq9mr4",
+          img: "https://media.licdn.com/dms/image/v2/D5635AQEd939YfgX0QQ/profile-framedphoto-shrink_400_400/B56ZfVVt7nG0Ac-/0/1751630929971?e=1754751600&v=beta&t=CkbOwaN91SWKjnNodKW-z1zZ2BKmeGa7rOM8gTvexeY",
           linkedin: "https://www.linkedin.com/in/dzamir-akmal/",
           github: "https://github.com/Eyotaaa",
         },
@@ -491,6 +477,19 @@ export const projects = [
     category: "web",
     detail: "https://faqihabds.github.io/faqihabds-portfolio/",
     vgithub: "https://github.com/faqihabds/faqihabds-portfolio",
+  },
+  {
+    id: 11,
+    title: "Data Wrangling",
+    date: "Jun 2025",
+    description:
+      "Performed comprehensive data cleaning and preprocessing to prepare raw datasets for analysis. Tasks included importing and exploring datasets using Pandas, handling missing values through mean and median imputation, and applying normalization techniques to ensure fair feature scaling across variables. The project demonstrated proficiency in preparing high-quality, analysis-ready data essential for downstream machine learning tasks.",
+    image:
+      "https://github.com/faqihabds/image/blob/main/Screenshot%202025-06-29%20230515.png?raw=true",
+    tags: ["Python", "Pandas", "Scikit-Learn", "Data Wrangling", "Import Data", "Explore Data", "Handling Missing Value", "Normalization"],
+    category: "data",
+    detail: "https://www.linkedin.com/posts/faqihabds_data-wrangling-with-python-activity-7343861785034223617-AsxP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC_5b8UBLiZOpoByXjlviAkl2NhAShqgyiU",
+    vgithub: "https://github.com/faqihabds/Data-Wrangling",
   },
 ];
 
