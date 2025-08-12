@@ -1,5 +1,5 @@
 export const Bio = {
-  name: "Muhammad Faqih Abdussalam",
+  name: "Muhammad Faqih",
   roles: [
     "Data Analyst",
     "Data Engineer",
@@ -9,7 +9,7 @@ export const Bio = {
     "Front-End Developer",
   ],
   description:
-    "Recent Computer Science graduate with a strong interest in Data, Machine Learning, and Artificial Intelligence. Equipped with analytical thinking, programming skills, and a growth mindset, ready to contribute meaningfully to AI-driven projects and dynamic team environments.",
+    "Recent Computer Science graduate with a strong interest in Data and Artificial Intelligence. Proficient in Python, SQL, and data visualization with solid understanding of machine learning, data wrangling, and system design. Currently participating in the Fundamental Data Engineering training by KOMDIGI x DQLAB and the Data Science Bootcamp by Digital Skola.",
   github: "https://github.com/faqihabds",
   resume:
     "https://drive.google.com/drive/folders/1xCsFbpufcOpdzHcKuS62diK7m9Zub9cF?usp=sharing",
